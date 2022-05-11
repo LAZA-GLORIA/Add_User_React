@@ -42,6 +42,6 @@ packages `axios`.
 Bien sûr, vous pouvez supprimer ce morceau de code.
 
 Dans `src/index.js` j'ai importé `react-router-dom` et `App.js`. (`App.js` est le fichier principal de notre projet dans
-lequel j'ai mis mes `Routers`)
+lequel j'ai mis mes `Routes`)
 
 Vous pouvez bien évidemment supprimer ce morceau de code.
