@@ -4,7 +4,7 @@ import axios from "axios";
 const RandomApi = () => {
   const [vehicle, setVehicle] = useState({});
   const API = "https://random-data-api.com/api/vehicle/random_vehicle";
-
+  console.log(API);
   useEffect(() => {
     const fetchVehicle = async () => {
       try {
