@@ -1,6 +1,7 @@
 import React from "react";
 import RandomApi from "../components/RandomApi";
 import Count from "../components/Count"
+import Mycars from "../components/Mycars"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <h1>Home</h1>
       <RandomApi />
       <Count />
+      <Mycars />
     </div>
   );
 };
