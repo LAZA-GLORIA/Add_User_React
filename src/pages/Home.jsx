@@ -4,15 +4,16 @@ import Count from "../components/Count"
 import Mycars from "../components/Mycars"
 
 const Home = () => {
-  state = {
+ {/** state = {
     titre: "Mon catalogue voiture"
-  }
+  }*/ }
   return (
     <div>
       <h1>Home</h1>
       <RandomApi />
       <Count />
-      <Mycars title={this.state.titre}/>
+      <Mycars />
+      {/** <Mycars title={this.state.titre}/> */}
     </div>
   );
 };
